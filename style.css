@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background : rgb(255, 255, 255);
+}
+
+.title {
+    text-align: center;
+    color: rgba(19, 19, 19, 0.767);
+    font-family: sans-serif;
+}
+
+#container {
+    justify-content: center;
+}
