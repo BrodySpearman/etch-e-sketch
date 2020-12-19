@@ -2,15 +2,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background : rgb(255, 255, 255);
+    background : #e2fadb;
 }
 
 .title {
+    border: 1px solid black;
+    width: 100%;
     text-align: center;
-    color: rgba(19, 19, 19, 0.767);
+    color: rgba(0, 0, 0, 0.767);
+    background: #5F634F;
     font-family: sans-serif;
 }
 
 #container {
+    margin-left: 33%;
+    margin-right: 33%;
+    padding: 10px;
     justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(100, 2fr);
+    grid-template-rows: repeat(100, 2fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 500px;
+    height: 500px;
+}
+
+.square {
+    border: 1px solid grey;
+    width: 2fr;
+    height: 2fr;
+}
+
+#form {
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#clear {
+    border: none;
+    background: #9BC4CB;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    width: 200px;
+    border-radius: 6px;
+    display: inline-block;
 }
